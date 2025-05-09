@@ -5,20 +5,19 @@ from sentence_transformers import SentenceTransformer, util
 
 app = FastAPI()
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
-
 df = pd.read_csv("Combined_Chatbot_Dataset.csv")
 questions = df['text'].tolist()
 answers = df['answer'].tolist()
 intents = df['intent'].tolist()
-
-question_embeddings = model.encode(questions, convert_to_tensor=True)
 
 class Query(BaseModel):
     text: str
 
 @app.post("/predict")
 def predict(q: Query):
+    model = SentenceTransformer('all-MiniLM-L6-v2')
+    question_embeddings = model.encode(questions, convert_to_tensor=True)
+
     user_embedding = model.encode(q.text, convert_to_tensor=True)
     cosine_scores = util.pytorch_cos_sim(user_embedding, question_embeddings)[0]
 
