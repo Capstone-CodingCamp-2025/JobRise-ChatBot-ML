@@ -1,0 +1,203 @@
+text,intent,answer
+Bagaimana cara mengedit biodata (profile)?,T1,"Untuk mengedit biodata atau profil Anda di JobRise, silakan ikuti langkah-langkah berikut:
+
+1. Masuk ke akun JobRise Anda
+2. Klik menu ""Profile"" yang terdapat di bagian atas halaman
+3. Cari dan klik ikon pensil (edit) yang berada di samping informasi profil Anda
+4. Lakukan perubahan pada data yang ingin Anda perbarui
+5. Setelah selesai, klik tombol ""Save"" untuk menyimpan perubahan
+
+Perubahan pada profil Anda akan langsung diperbarui dan dapat dilihat oleh perekrut saat Anda melamar pekerjaan."
+Bagaimana cara membuat CV ATS generated?,T3,"JobRise menyediakan fitur pembuatan CV yang dioptimalkan untuk ATS (Applicant Tracking System). Untuk membuat CV ATS generated, ikuti langkah-langkah berikut:
+
+1. Masuk ke akun JobRise Anda
+2. Pilih menu ""CV"" di bagian atas halaman
+3. Isi semua field yang tersedia dengan informasi yang relevan (pendidikan, pengalaman kerja, skill, dsb)
+4. Setelah semua informasi terisi dengan lengkap, klik tombol ""Generate CV""
+5. Sistem akan memproses informasi Anda menjadi format CV yang ATS-friendly
+6. Setelah proses selesai, klik tombol ""Download"" untuk menyimpan CV Anda
+
+CV yang dihasilkan sudah dioptimalkan untuk sistem ATS sehingga meningkatkan peluang CV Anda lolos tahap screening awal."
+Bagaimana cara apply jobs?,T2,"Untuk melamar pekerjaan di JobRise, ikuti langkah-langkah berikut:
+
+1. Masuk ke akun JobRise Anda
+2. Pilih menu ""Find Job"" di bagian atas halaman
+3. Cari pekerjaan yang sesuai dengan kualifikasi dan minat Anda
+4. Klik pada pekerjaan yang ingin Anda lamar untuk melihat detail
+5. Klik tombol ""Apply"" yang terdapat pada halaman detail pekerjaan
+6. Lamaran Berhasil dikirim.
+
+Anda dapat memantau status lamaran melalui menu ""Applied""."
+Bagaimana cara save job?,T4,"Anda dapat menyimpan lowongan pekerjaan yang menarik untuk dilihat nanti dengan cara:
+
+1. Masuk ke akun JobRise Anda
+2. Pilih menu ""Find Job"" pada bagian atas
+3. Jelajahi daftar pekerjaan yang tersedia
+4. Saat menemukan pekerjaan yang ingin Anda simpan, klik ikon bookmark (save) yang terdapat pada kartu lowongan pekerjaan tersebut
+
+Pekerjaan yang Anda simpan dapat diakses kembali melalui menu ""Favorite Jobs"" pada dashboard Anda. Fitur ini sangat berguna untuk membantu Anda melacak lowongan yang menarik tanpa perlu melamar saat itu juga."
+Bagaimana cara cek status lamaran?,T2,"Untuk memeriksa status lamaran pekerjaan yang telah Anda kirimkan:
+
+1. Masuk ke akun JobRise Anda
+2. Pilih menu ""Applied"" di bagian atas halaman
+3. Anda akan melihat daftar semua lamaran yang telah Anda kirimkan
+4. Cari pekerjaan yang ingin Anda ketahui statusnya
+5. Status lamaran Anda (Submitted, Under Review, Interview, Rejected, atau Accepted) akan ditampilkan di samping informasi pekerjaan
+
+JobRise akan secara otomatis memperbarui status lamaran Anda setiap kali ada perubahan dari pihak perusahaan."
+Bagaimana mengetahui apakah lowongan masih tersedia atau tidak?,T4,"Untuk mengetahui ketersediaan suatu lowongan pekerjaan di JobRise:
+
+1. Buka menu ""Find Job"" pada bagian atas
+2. Cari lowongan pekerjaan yang ingin Anda ketahui ketersediaannya
+3. Perhatikan bagian kanan atas pada kartu informasi pekerjaan tersebut
+
+JobRise menampilkan status ketersediaan dengan label yang jelas:
+
+- ""Open"" (berwarna hijau) menandakan lowongan masih tersedia
+- ""Closing Soon"" (berwarna kuning) menandakan deadline aplikasi hampir berakhir
+- ""Closed"" (berwarna merah) menandakan lowongan sudah tidak tersedia
+
+Informasi ini diperbarui secara real-time sesuai dengan data dari perusahaan pemberi kerja."
+Apa yang harus saya lakukan saat terjadi masalah saat melamar pekerjaan?,T6,"Jika Anda mengalami masalah saat melamar pekerjaan di JobRise, ada beberapa langkah yang dapat Anda lakukan:
+
+1. Untuk masalah teknis pada platform JobRise:
+- Hubungi pusat bantuan (contact center) dengan kontak yang bisa ditemukan pada bagian bawah halaman utama
+- Kirimkan email ke support.jobrise@gmail.com dengan detail masalah yang Anda alami
+
+
+2. Untuk masalah yang berkaitan dengan persyaratan atau informasi dari perusahaan:
+- Hubungi langsung HRD atau contact person perusahaan yang tertera pada detail lowongan
+- Kirimkan pertanyaan melalui form yang tersedia pada halaman detail perusahaan
+
+
+Tim support JobRise siap membantu Anda dalam menyelesaikan masalah dengan respons cepat dalam 1x24 jam."
+Bagaimana cara melihat riwayat lamaran pekerjaan?,T2,"Untuk melihat seluruh riwayat lamaran pekerjaan yang pernah Anda kirimkan di JobRise:
+
+1. Masuk ke akun JobRise Anda
+2. Pilih menu ""Applied"" di bagian atas
+3. Halaman akan menampilkan daftar lengkap semua lamaran yang pernah Anda kirimkan
+4. Lamaran akan diurutkan secara kronologis dari yang terbaru hingga yang terlama
+5. Untuk melihat detail lamaran, klik pada nama pekerjaan atau perusahaan
+
+Fitur riwayat lamaran ini memungkinkan Anda untuk melacak dan menganalisis perjalanan karir Anda di JobRise."
+Bagaimana cara mengubah kata sandi?,T1,"Untuk mengubah kata sandi akun JobRise Anda:
+
+1. Masuk ke akun JobRise Anda
+2. Klik menu ""Profile"" di bagian atas
+3. Pilih submenu ""Pengaturan""
+4. Klik tab ""Keamanan""
+5. Pilih opsi ""Ubah Kata Sandi""
+6. Masukkan kata sandi lama Anda untuk verifikasi
+7. Masukkan kata sandi baru (minimal 8 karakter, kombinasi huruf besar, huruf kecil, angka, dan simbol)
+8. Konfirmasi kata sandi baru dengan mengetiknya kembali
+9. Klik tombol ""Konfirmasi"" untuk menyimpan perubahan
+
+Setelah berhasil mengubah kata sandi, Anda akan menerima email konfirmasi perubahan kata sandi. Demi keamanan, sebaiknya ganti kata sandi Anda secara berkala setiap 3-6 bulan."
+Bagaimana cara mengubah kata sandi karena lupa?,T1,"Jika Anda lupa kata sandi, Anda dapat merubahnya dengan:
+
+1. Klik menu ""Sign in"" pada bagian atas
+2. Pilih ""Lupa kata sandi"" pada bagian bawah kanan form
+3. Verifikasi email Anda
+4. Masukkan kata sandi baru (minimal 8 karakter, kombinasi huruf besar, huruf kecil, angka, dan simbol)
+5. Konfirmasi kata sandi baru dengan mengetiknya kembali
+6. Klik tombol ""Konfirmasi"" untuk menyimpan perubahan
+
+Setelah berhasil mengubah kata sandi, Anda akan menerima email konfirmasi perubahan kata sandi. Demi keamanan, sebaiknya ganti kata sandi Anda secara berkala setiap 3-6 bulan."
+Bagaimana cara memfilter lowongan pekerjaan sesuai preferensi saya?,T4,"JobRise menyediakan fitur filter yang komprehensif untuk mempermudah pencarian lowongan yang sesuai dengan preferensi Anda:
+
+1. Masuk ke akun JobRise Anda
+2. Pilih menu ""Find Job"" pada bagian atas
+3. Klik button ""Filter""
+4. Anda akan menemukan panel filter dengan berbagai opsi:
+- Lokasi kerja (kota, provinsi, remote work)
+- Kategori pekerjaan
+- Tingkat pengalaman (entry level, mid-level, senior)
+- Jenis pekerjaan (full-time, part-time, kontrak, magang)
+- Rentang gaji
+- Industri
+- Ukuran perusahaan
+- Tanggal posting
+4. Centang atau atur filter sesuai preferensi Anda
+5. Hasil pencarian akan otomatis diperbarui sesuai filter yang Anda pilih
+6. Untuk menyimpan filter pencarian ini, klik ""Simpan Filter"" dan beri nama
+
+Sistem akan menampilkan lowongan pekerjaan yang sesuai preferensi Anda
+"
+Apakah saya bisa mendapatkan rekomendasi pekerjaan sesuai keahlian saya?,N1,"Ya, JobRise dirancang khusus untuk memberikan rekomendasi pekerjaan yang sesuai dengan profil Anda. Platform ini terintegrasi dengan teknologi Machine Learning yang canggih yang menganalisis berbagai faktor seperti:
+
+- Keterampilan dan kompetensi yang Anda miliki
+- Bidang minat dan passion Anda
+- Pengalaman kerja sebelumnya
+- Latar belakang pendidikan
+- Tren industri dan kebutuhan pasar kerja saat ini
+
+Sistem akan secara otomatis memproses data-data tersebut dan menampilkan rekomendasi pekerjaan yang paling cocok untuk Anda di Find Job. Semakin lengkap informasi yang Anda berikan dalam profil, semakin akurat rekomendasi yang akan Anda terima."
+Apakah saya bisa melamar banyak pekerjaan dalam satu waktu?,N2,"Ya, JobRise memberikan kebebasan kepada pengguna untuk melamar berbagai posisi pekerjaan tanpa batasan jumlah. Anda dapat mengajukan lamaran ke beberapa perusahaan atau posisi yang berbeda secara bersamaan tanpa perlu menunggu proses seleksi dari lamaran sebelumnya selesai.
+Fitur ini dirancang untuk memaksimalkan peluang karir Anda dengan:
+
+- Memperluas jangkauan aplikasi pada berbagai perusahaan
+- Memungkinkan Anda mengeksplorasi berbagai jalur karir potensial
+- Meningkatkan kesempatan untuk mendapatkan panggilan interview
+
+JobRise juga menyediakan sistem manajemen lamaran yang komprehensif sehingga Anda dapat dengan mudah melacak dan mengelola semua lamaran yang telah Anda kirimkan. Hal ini membantu Anda tetap terorganisir meskipun melamar ke banyak posisi sekaligus."
+Bagaimana cara JobRise memastikan bahwa rekomendasi pekerjaan yang diberikan benar-benar sesuai dengan profil saya?,N3,"JobRise menggunakan algoritma pencocokan yang canggih dan komprehensif untuk memastikan rekomendasi pekerjaan yang akurat. Sistem kami bekerja dengan cara:
+
+1. Menganalisis profil Anda secara menyeluruh, termasuk:
+- Hard skills dan technical skills yang Anda miliki
+- Soft skills dan kemampuan interpersonal
+- Pengalaman kerja dan pencapaian
+- Latar belakang pendidikan dan sertifikasi
+- Minat karir dan preferensi industri
+
+2. Membandingkan profil Anda dengan:
+- Persyaratan spesifik dari lowongan pekerjaan
+- Data kandidat yang berhasil pada posisi serupa
+- Tren rekrutmen terkini di industri tersebut
+
+Seperti itu cara JobRise memastikan bahwa rekomendasi pekerjaan yang diberikan benar-benar sesuai dengan profil Anda."
+Apakah data pribadi saya aman di JobRise?,N5,"JobRise memprioritaskan keamanan data pribadi pengguna dengan menerapkan standar keamanan yang ketat:
+
+1. Perlindungan Data:
+- Enkripsi end-to-end untuk semua data sensitif
+- Pembaruan sistem keamanan secara berkala
+
+2. Transparansi Penggunaan Data:
+- Kebijakan privasi yang jelas dan komprehensif
+
+3. Kepatuhan Regulasi:
+- Kepatuhan terhadap peraturan perlindungan data global
+- Hak pengguna untuk mengakses, mengubah, dan menghapus data pribadi
+- Proses verifikasi untuk permintaan akses data dari pihak ketiga
+
+Dengan standar keamanan yang tinggi, Anda dapat mencari pekerjaan dengan tenang tanpa khawatir tentang keamanan informasi pribadi Anda di JobRise."
+Apakah JobRise menyediakan informasi tentang kisaran gaji untuk posisi yang saya lamar?,N6,"Ya, JobRise berkomitmen untuk transparansi informasi gaji dan menyediakan data komprehensif tentang kompensasi:
+
+1. Informasi Gaji pada Lowongan:
+- Kisaran gaji yang ditampilkan pada setiap posting lowongan (jika disediakan oleh perusahaan)
+- Indikator apakah gaji dapat dinegosiasikan
+- Informasi tentang benefit dan tunjangan tambahan
+
+2. Salary Insights:
+- Data gaji rata-rata untuk posisi serupa di industri yang sama
+- Perbandingan gaji berdasarkan lokasi geografis
+- Trend gaji dari waktu ke waktu untuk menilai prospek masa depan
+
+3. Negotiation Guidance:
+- Tips untuk negosiasi gaji berdasarkan data pasar
+- Script contoh untuk diskusi gaji dengan perekrut
+- Strategi untuk mendapatkan kompensasi optimal sesuai kualifikasi Anda
+
+Dengan informasi gaji yang transparan, Anda dapat membuat keputusan karir yang lebih cerdas dan memastikan bahwa Anda mendapatkan kompensasi yang sesuai dengan nilai pasar."
+Apa keunggulan JobRise dibandingkan platform pencarian kerja lainnya?,N6,"JobRise memiliki beberapa keunggulan kompetitif yang membedakannya dari platform pencarian kerja lainnya:
+
+1. Teknologi AI dan Machine Learning:
+- Sistem rekomendasi pekerjaan yang lebih akurat berdasarkan analisis komprehensif profil
+- Prediksi tren karir dan kecocokan posisi berdasarkan big data
+
+2. Tools Canggih untuk Persiapan Karir:
+- CV builder dengan optimasi ATS yang lebih canggih
+
+3. Memperhatikan aspek psikologis
+- JobRise tidak hanya berfokus pada informasi lowongan pekerjaan, tetapi juga memperhatikan kondisi mental maupun emosional dari user.
+
+Dengan kombinasi keunggulan ini, JobRise tidak hanya membantu Anda menemukan pekerjaan, tetapi juga mendukung pengembangan karir jangka panjang Anda secara komprehensif."
