@@ -1,4 +1,4 @@
 fastapi
 uvicorn
-pandas
 sentence-transformers==2.2.2
+pandas
