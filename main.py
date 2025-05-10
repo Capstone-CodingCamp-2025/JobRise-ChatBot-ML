@@ -13,11 +13,11 @@ intents = df['intent'].tolist()
 class Query(BaseModel):
     text: str
 
+model = SentenceTransformer('all-MiniLM-L6-v2')
+question_embeddings = model.encode(questions, convert_to_tensor=True)
+
 @app.post("/predict")
 def predict(q: Query):
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    question_embeddings = model.encode(questions, convert_to_tensor=True)
-
     user_embedding = model.encode(q.text, convert_to_tensor=True)
     cosine_scores = util.pytorch_cos_sim(user_embedding, question_embeddings)[0]
 
