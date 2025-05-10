@@ -1,14 +1,11 @@
-# Gunakan image dasar python yang ringan
-FROM python:3.10-slim
-
-ENV TORCH_HOME=/tmp/torch
+FROM pytorch/pytorch:2.0.1-cpu
 
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
-COPY main.py main.py
-COPY embeddings.pkl embeddings.pkl
-COPY Combined_Chatbot_Dataset.csv Combined_Chatbot_Dataset.csv
+COPY requirements.txt .
+COPY main.py .
+COPY embeddings.pkl .
+COPY Combined_Chatbot_Dataset.csv .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
