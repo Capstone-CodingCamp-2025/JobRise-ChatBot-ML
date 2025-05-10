@@ -13,7 +13,7 @@ intents = df['intent'].tolist()
 class Query(BaseModel):
     text: str
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 question_embeddings = model.encode(questions, convert_to_tensor=True)
 
 @app.post("/predict")
