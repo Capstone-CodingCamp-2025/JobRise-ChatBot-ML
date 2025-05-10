@@ -1,9 +1,13 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI
+from pydantic import BaseModel
 from fastapi.responses import JSONResponse
 import pickle
 import numpy as np
-from gensim.models import Word2Vec
 from sklearn.metrics.pairwise import cosine_similarity
+from gensim.models import Word2Vec
+
+class QueryInput(BaseModel):
+    text: str
 
 app = FastAPI()
 
@@ -28,7 +32,8 @@ def root():
     return {"message": "Chatbot API with Word2Vec"}
 
 @app.post("/predict")
-def predict(q: str = Query(..., description="Pertanyaan dari user")):
+def predict(query: QueryInput):
+    q = query.text
     user_vec = embed_sentence(q).reshape(1, -1)
     scores = cosine_similarity(user_vec, question_embeddings)[0]
     best_idx = scores.argmax()
