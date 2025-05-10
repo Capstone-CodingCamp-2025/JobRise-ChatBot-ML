@@ -1,27 +1,29 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-import pandas as pd
-from sentence_transformers import SentenceTransformer, util
+import pickle
+import torch
+from sentence_transformers import util
 
 app = FastAPI()
+with open("embeddings.pkl", "rb") as f:
+    data = pickle.load(f)
 
-df = pd.read_csv("Combined_Chatbot_Dataset.csv")
-questions = df['text'].tolist()
-answers = df['answer'].tolist()
-intents = df['intent'].tolist()
+questions = data["questions"]
+answers = data["answers"]
+intents = data["intents"]
+question_embeddings = data["question_embeddings"]
 
 class Query(BaseModel):
     text: str
 
-model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
-question_embeddings = model.encode(questions, convert_to_tensor=True)
-
 @app.post("/predict")
 def predict(q: Query):
+    from sentence_transformers import SentenceTransformer
+    model = SentenceTransformer('all-MiniLM-L6-v2')  
     user_embedding = model.encode(q.text, convert_to_tensor=True)
-    cosine_scores = util.pytorch_cos_sim(user_embedding, question_embeddings)[0]
 
-    best_idx = cosine_scores.argmax().item()
+    cosine_scores = util.pytorch_cos_sim(user_embedding, question_embeddings)[0]
+    best_idx = torch.argmax(cosine_scores).item()
     best_score = cosine_scores[best_idx].item()
 
     return {
