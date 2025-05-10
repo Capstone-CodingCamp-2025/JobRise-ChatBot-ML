@@ -2,26 +2,25 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pickle
 import torch
-from sentence_transformers import util
+from sentence_transformers import SentenceTransformer, util
 
 app = FastAPI()
+
+model = SentenceTransformer('all-MiniLM-L6-v2')
 with open("embeddings.pkl", "rb") as f:
     data = pickle.load(f)
 
 questions = data["questions"]
 answers = data["answers"]
 intents = data["intents"]
-question_embeddings = data["question_embeddings"]
+question_embeddings = torch.tensor(data["question_embeddings"])
 
 class Query(BaseModel):
     text: str
 
 @app.post("/predict")
 def predict(q: Query):
-    from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer('all-MiniLM-L6-v2')  
     user_embedding = model.encode(q.text, convert_to_tensor=True)
-
     cosine_scores = util.pytorch_cos_sim(user_embedding, question_embeddings)[0]
     best_idx = torch.argmax(cosine_scores).item()
     best_score = cosine_scores[best_idx].item()
