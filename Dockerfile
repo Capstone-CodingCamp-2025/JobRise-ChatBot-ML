@@ -1,6 +1,8 @@
 # Gunakan image dasar python yang ringan
 FROM python:3.10-slim
 
+ENV TORCH_HOME=/tmp/torch
+
 WORKDIR /app
 
 COPY requirements.txt requirements.txt
