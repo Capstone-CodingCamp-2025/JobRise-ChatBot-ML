@@ -5,7 +5,7 @@
 ## Chatbot API
 ---
 
-### 🧠 Endpoint
+### Endpoint API
 **POST**  
 `https://machine-learning-production.up.railway.app/predict`
 
@@ -18,7 +18,6 @@
   "text": "Tulis pertanyaanmu di sini"
 }
 
-``` json
 {
   "user_input": "Tulis pertanyaanmu di sini",
   "matched_question": "Pertanyaan yang paling mirip",
