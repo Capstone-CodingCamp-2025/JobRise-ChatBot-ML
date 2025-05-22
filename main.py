@@ -5,11 +5,19 @@ import pickle
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from gensim.models import Word2Vec
+from fastapi.middleware.cors import CORSMiddleware
 
 class QueryInput(BaseModel):
     text: str
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 model = Word2Vec.load("w2v_model.model")
 with open("embeddings.pkl", "rb") as f:
