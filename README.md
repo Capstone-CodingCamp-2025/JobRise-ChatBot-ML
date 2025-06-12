@@ -3,7 +3,7 @@
 
 ### Endpoint API
 **POST**  
-`https://machine-learning-production.up.railway.app/predict`
+`https://jobrise-chatbot-ml-production.up.railway.app/predict`
 
 ---
 
